@@ -1,0 +1,137 @@
+/* Media querry. */
+@media screen and (max-width:1440px) and (min-width:375px){
+    /* CSS reset. */
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+    }
+
+    body {
+            background-color: hsl(0, 0%, 95%);
+            font-family:'Lexend Deca', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+    }
+
+    main{
+        width: 60%;
+        margin: 80px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* @media (max-width:1390px) {
+            main{
+                width: %;
+
+        
+            }
+        } */
+        
+    }
+    /* Box containing style */
+    #box1{
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 5px 0px 0px 5px;
+    }
+    /* Box containing SUVS style. */
+    #box2{
+        background-color: hsl(184, 100%, 22%);
+    }
+    /* Box containing Luxury style. */
+    #box3{
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0px 5px 5px 0px;
+    }
+    /* Contents for Sedans,SUVS, and Luxury. */
+    .box-content{
+        height: 450px;
+        padding: 40px 40px 40px;
+    }
+    /* Styles for icon. */
+    .image{    
+        width: 50px;
+        height: 30px;
+    }
+    /* Styles for the main geadings. */
+    .headings{
+        font-weight: 700;
+        font-family: 'Big Shoulders Display', cursive;
+        color: hsl(0, 0%, 95%);
+    }
+    .paragraphs{
+        color: hsla(0, 0%, 100%, 0.75);
+        line-height: 25px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+    }
+    /* Learn More buttons. */
+    button{
+        width: 70%;
+        height: 12%;
+        border: 1px white;
+        border-radius: 20px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    #button1{
+        color: hsl(31, 77%, 52%);
+    }
+    #button2{
+        color: hsl(184, 100%, 22%);
+    }
+    #button3{
+        color: hsl(179, 100%, 13%);
+    }
+
+    #button1:hover{
+        background-color: hsl(31, 77%, 52%);
+        color: hsl(0, 0%, 95%);
+        border: 3px solid;
+    }
+    #button2:hover{
+        background-color: hsl(184, 100%, 22%);
+        color: hsl(0, 0%, 95%);
+        border: 3px solid;
+    }
+    #button3:hover{
+        background-color: hsl(179, 100%, 13%);
+        color: hsl(0, 0%, 95%);
+        border: 3px solid;
+    }
+    /* Grid button to grid design. */
+    #gridbutton{
+        width: 300px;
+        height: 70px;
+        padding: 20px 30px;
+        border: 1px white;
+        border-radius: 20px;
+        background-color: rgb(5, 34, 5);
+        font-family: sans-serif;
+        font-weight: heavy;
+        font-size: 30px;
+        color: white;
+        margin: 0% 45% 30px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:1390px) {
+    main{
+        width: 58%;
+    }
+
+    .paragraphs{
+        color: hsla(0, 0%, 100%, 0.75);
+        line-height: 25px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+}
+
+@media screen and (max-width:1295px) {
+    .headings{
+        font-size: 24px;
+    }
+}    
